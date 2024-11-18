@@ -1,16 +1,14 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import PriceTable from '../components/PriceTable';
-import '../css/Banner.css'; // Import CSS for styling
 
-const Silver = () => {
-  return (
-    <div>
-      <div className="banner silver-banner">
-        <h2>Silver Prices</h2>
-      </div>
+const SilverPage = () => (
+  <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+    <Navbar />
+    <div style={{ flex: 1, padding: '20px' }}>
       <PriceTable type="Silver" />
     </div>
-  );
-};
+  </div>
+);
 
-export default Silver;
+export default SilverPage;
