@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[845],{106:function(e,t,l){l.r(t);var a=l(7294),n=l(8161),r=l(1843);t.default=()=>a.createElement("div",{style:{display:"flex",flexDirection:"column",minHeight:"100vh"}},a.createElement(n.Z,null),a.createElement("div",{style:{flex:1,padding:"20px"}},a.createElement(r.Z,{type:"Gold"})))}}]);
-//# sourceMappingURL=component---src-pages-gold-js-a5b8e804ad00de8df424.js.map
